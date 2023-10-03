@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box-outer{
+    width: 100%;
+    height: 100vh;
+}
+
+.box-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input-field2::placeholder{
+    color:  #9a9a9a;
+}
+
+.left{
+    width: 30%;
+    height: 100%;
+}
+
+.right{
+    width: 70%;
+    height: 100%;
+    background: #fffdfd;
+}
+
+.form-1{
+    width: 100%;
+    height: 100%;
+    background: #e9c57d;
+    padding: 2vh;
+}
+
+.form-top{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input-field{
+    border-style: solid;
+    border-color: black;
+    padding-left: 1vh;
+    width: 85%;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 5vh;
+    outline: none;
+    margin-top: 18%;
+}
+
+::placeholder{
+    color:black;
+}
+
+.button-group{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.act_buttons-1{
+    width: 30%;
+    cursor: pointer;
+    height: 6vh;
+    background: #f5dcb6;
+    border-radius: 5vh;
+    border-style: solid;
+    transition: 0.2s;
+    border-width: 1px;
+}
+
+.act_buttons-1:hover{
+    background: #d7ad7b;
+    transition: 0.2s;
+    border-color: black;
+}
+
+.act_buttons-2{
+    width: 30%;
+    cursor: pointer;
+    height: 6vh;
+    margin-left: 2vh;
+    background: #a6f573;
+    border-radius: 5vh;
+    transition: 0.2s;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.act_buttons-2:hover{
+    background: #64ed9e;
+    transition: 0.2s;
+    border-color: black;
+}
+.act_buttons-3{
+    width: 30%;
+    cursor: pointer;
+    height: 6vh;
+    transition: 0.2s;
+    margin-left: 2vh;
+    background: #fb9494;
+    border-radius: 5vh;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.act_buttons-3:hover{
+    background: #f67777;
+    transition: 0.2s;
+    border-color: black;
+}
+
+.righttop{
+    width: 100%;
+    height: 20%;
+}
+
+
+.form-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user-input-field2{
+    border-style: solid;
+    border-color: black;
+    padding-left: 1vh;
+    width: 40%;
+    border-width: 1px;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    height: 5vh;
+    padding-left: 5vh;
+    font-size: 2vh;
+    border-right: none;
+    outline: none;
+}
+
+
+.act_buttons-4{
+    width: 12%;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    height: 5vh;
+    transition: 0.2s;
+    border-left: none;
+    background: #e9c57d;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
+
+.act_buttons-4:hover{
+    background: #da9b66;
+    transition: 0.2s;
+    border-color: black;
+    border-left: none;
+}
+
+.rightbottom{
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table{
+    font-family: aerial,sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    background: #dddddd;
+}
+
+th{
+    /*border:2px solid black ;*/
+    padding:8px;
+    width: 8%;
+    background: #d7ad7b;
+    color: black;
+    font-size: 1.9vh;
+    font-family: "Poppins",sans-serif;
+    text-transform: uppercase;
+}
+
+td{
+    /*border:2px solid black ;*/
+    padding:15px;
+    cursor: pointer;
+    font-size: 1.9vh;
+}
+
+tr:nth-child(even){
+    background-color: #eeeeee;
+}
+
+.data-row{
+    height: 5vh;
+    background-color: #eeeeee;
+    text-align: center;
+}

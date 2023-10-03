@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+.ft{
+    width:100%;
+    height:45vh;
+    border-style: solid;
+    border-color: #c69f05;
+    border-width: 4px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    font-family: "Poppins",sans-serif;
+    background: #0c0902;
+}
+
+.ft-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.icon1{
+    width: 8vh;
+    height:43%;
+    border-radius: 100%;
+}
+
+.icon1:hover{
+    transition: 1s;
+    animation-name: fbani;
+    animation-duration: 0.26s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
+@keyframes fbani{
+    0%{
+        transform:rotate(20deg);
+    }
+    50%{
+        transform:rotate(-20deg);
+    }
+    100%{
+        transform:rotate(20deg);
+    }
+}
+
+.icon2{
+    width: 8vh;
+    height:43%;
+    border-radius: 100%;
+}
+
+.icon2:hover{
+    transition: 1s;
+    animation-name: snapani;
+    animation-duration: 0.26s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
+@keyframes snapani{
+    0%{
+        transform:rotate(20deg);
+    }
+    50%{
+        transform:rotate(-20deg);
+    }
+    100%{
+        transform:rotate(20deg);
+    }
+}
+
+.icon3{
+    width: 8vh;
+    height:43%;
+    border-radius: 100%;
+}
+
+.icon3:hover{
+    transition: 1s;
+    animation-name: twiani;
+    animation-duration: 0.26s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
+@keyframes twiani{
+    0%{
+        transform:rotate(20deg);
+    }
+    50%{
+        transform:rotate(-20deg);
+    }
+    100%{
+        transform:rotate(20deg);
+    }
+}
+.descrip{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.descrip-outer{
+width: 50%;
+margin-left: 2%;
+height: 100%;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+color:white;
+font-family: "Poppins",sans-serif;
+font-size: 2vh;
+}
+.text1{
+    margin-top: 2vh;
+font-family: "Poppins",sans-serif;
+}
+
+.text2{
+    margin-top: 2vh;
+    color: #877c7c;
+    font-weight: 800; 
+font-family: "Poppins",sans-serif;
+}
+
+
+.sup{
+color:white;
+font-family: "Poppins",sans-serif;
+}
+
+@media screen and (max-width:937px){
+    
+.social-icons{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 2%;
+}
+
+
+.icon1{
+    width: 7vh;
+    height:40%;
+    border-radius: 100%;
+}
+.icon2{
+    width: 7vh;
+    height:40%;
+    border-radius: 100%;
+}
+
+.icon3{
+    width: 7vh;
+    height:40%;
+    border-radius: 100%;
+}
+}

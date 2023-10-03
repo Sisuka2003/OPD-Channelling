@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.box-outer{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/pexels-jonathan-borba-3259627.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    transition: 0.5s;
+}
+
+.box-outer-hover{
+    transition: 1s;
+    width: 100%;
+    height: 100%;
+    background: #c7AB59;
+    position: fixed;    
+}
+
+.box-body-inner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.form-div{
+    width:100%;
+    height: 100%;
+    position: relative;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-div-inner-1{
+    width: 50%;
+    height: 12vh;
+    margin: 0% auto;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.form-div-inner-2{
+    width: 500px;
+    height: 12vh;
+    margin: 0% auto;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.form-div-inner-3{
+    width: 500px;
+    height: 9vh;
+    margin: 0% auto;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+
+.text1{
+    font-size: 3.6rem;
+    color: white;
+    animation-name: text1Ani;
+    animation-duration: 0.5s;
+    margin-top: 20vh;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+@keyframes text1Ani{
+    0%{
+        margin-top:25vh;
+        opacity:0;
+    }
+    100%{
+        margin-top:0vh;
+        opacity:1;
+    }
+}
+
+.text2{
+    font-size: 3.6rem;
+    color: white;
+    margin-top: 20vh;
+    animation-name: text2Ani;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-delay: 2.4s;
+}
+
+@keyframes text2Ani{
+    0%{
+        margin-top:25vh;
+    }
+    100%{
+        margin-top:0vh;
+    }
+}
+
+
+.anchorTag{
+    height: 100%;
+    outline: none;
+}
+
+.started{
+    width: 200px;
+    height: 100%;
+    color:white;    
+    background: transparent;
+    border-style: solid;
+    border-color: white;
+    outline: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 25vh;
+    animation-name: startedAni;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-delay: 2.8s;
+}
+
+@keyframes startedAni{
+    0%{
+        margin-top:25vh;
+    }
+    100%{
+        margin-top:0vh;
+    }
+}
+
+.started:hover{
+    transition: 0.5s;
+    color: black;
+    border-color: black;
+}
+
+.anchorTag:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    animation-name: startHover;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes startHover{
+    0%{
+        background: black;
+        background-image: radial-gradient(black,black);
+        transition:0.5s;
+    }
+    50%{
+        background: #c7AB59;
+        background-image: radial-gradient(#c7AB59,black);
+        transition:0.5s;
+    }
+    100%{
+        background: #c7AB59;
+        background-image: radial-gradient(#c7AB59,#c7AB59);
+        transition:0.5s;
+    }
+}
+
+
+.text1Black{
+    transition: 0.5s;
+    font-size: 3.6rem;
+    color: black;
+}
+
+.text2Black{
+    transition: 0.5s;
+    font-size: 3.6rem;
+    color: black;
+}
+
+.textokay{
+    transition: 0.5s;
+    font-size: 3.6rem;
+    color: white;
+}
+
+@media screen and (max-width:900px){
+
+
+    .text1{
+        font-size:2.8rem;
+        color: white;
+        animation-name: text1Ani;
+        animation-duration: 0.5s;
+        margin-top: 20vh;
+        animation-fill-mode: forwards;
+        animation-delay: 2s;
+    }
+
+    @keyframes text1Ani{
+        0%{
+            margin-top:25vh;
+            opacity:0;
+        }
+        100%{
+            margin-top:0vh;
+            opacity:1;
+        }
+    }
+
+    .text2{
+        font-size: 2.8rem;
+        color: white;
+        margin-top: 20vh;
+        animation-name: text2Ani;
+        animation-fill-mode: forwards;
+        animation-duration: 0.5s;
+        animation-delay: 2.4s;
+    }
+
+    @keyframes text2Ani{
+        0%{
+            margin-top:25vh;
+        }
+        100%{
+            margin-top:0vh;
+        }
+    }
+
+
+    .anchorTag{
+        height: 100%;
+        outline: none;
+    }
+
+
+    .text1Black{
+        transition: 0.5s;
+        font-size: 2.8rem;
+        color: black;
+    }
+
+    .text2Black{
+        transition: 0.5s;
+        font-size: 2.8rem;
+        color: black;
+    }
+
+    .textokay{
+        transition: 0.5s;
+        font-size: 2.8rem;
+        color: white;
+    } 
+
+
+    .started{
+        width: 150px;
+        height: 100%;
+        color:white;    
+        background: transparent;
+        border-style: solid;
+        border-color: white;
+        outline: none;
+        outline: none;
+        cursor: pointer;
+        transition: 0.5s;
+        margin-top: 25vh;
+        animation-name: startedAni;
+        animation-fill-mode: forwards;
+        animation-duration: 0.5s;
+        animation-delay: 2.4s;
+    }
+    .form-div{
+        width:100%;
+        height: 100%;
+        position: relative;
+        margin: 0% auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10vh;
+    }
+
+
+    .form-div-inner-3{
+        width: 500px;
+        height: 50px;
+        margin: 0% auto;
+        text-align: left;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        overflow-y: hidden;
+    }
+}

@@ -1,0 +1,271 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.box-outer{
+    width: 100%;
+    height: 100%;
+    background:white;
+    position: fixed;
+}
+
+
+.box-inner-out{
+    width: 100%;
+    height: 100%;
+    background:white;
+}
+
+.div-top{
+    width: 100%;
+    height: 20vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/pexels-jonathan-borba-3259627.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1{
+    font-size: 6.5vh;
+    color:white;
+}
+
+.midder-div{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-left{
+    height: 90%;
+    width: 40%;
+    background:url(images/Ok.gif);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-right-style: solid;
+    border-right-color: #848484;
+}
+
+
+.div-right{
+    height: 100%;
+    width: 60%;
+}
+
+.data-input-form{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-set-1{
+    width: 100%;
+    height: 10%;
+    padding-left: 5vh;
+}
+
+.div-set-02{
+    width: 100%;
+    height: 10%;
+    padding-left: 5vh;
+}
+
+.div-set-03{
+    width: 100%;
+    height: 10%;
+    padding-left: 5vh;
+}
+
+.div-set-03-hide{
+    width: 100%;
+    height: 10%;
+    padding-left: 5vh;
+    display: none;
+}
+
+.div-set-04{
+    width: 100%;
+    height: 10%;
+    padding-left: 5vh;
+}
+
+.user-input-field{
+    width: 30%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.user-input-field:hover{
+    border-color: #e9c57d;
+    transition: 0.2s;
+}
+
+.combo-1:hover{
+    width: 30%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #e9c57d;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+.combo-11:hover{
+    width: 30%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #e9c57d;
+    border-width: 1px;
+    outline: none;
+    margin-top: -0.4vh;
+    padding-left: 5px;
+}
+
+.combo-11{
+    width: 30%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    margin-top: -0.4vh;
+    padding-left: 5px;
+}
+
+.combo-1{
+    width: 30%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.combo-1-mini{
+    width: 10%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.combo-1-mini:hover{
+    width: 10%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #e9c57d;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.user-input-field2{
+    width: 60.4%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.user-input-field2:hover{
+    transition: 0.2s;
+    border-color: #e9c57d;
+}
+
+
+.user-input-field2-name{
+    width: 50%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+
+.user-input-field2-name:hover{
+    transition: 0.2s;
+    border-color: #e9c57d;
+}
+
+.combo-1-large{
+    width: 60.4%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #333333;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+
+.combo-1-large:hover{
+    width: 60.4%;
+    transition: 0.2s;
+    height: 5vh;
+    border-radius: 0.5vh;
+    border-style: solid;
+    border-color: #e9c57d;
+    border-width: 1px;
+    outline: none;
+    padding-left: 5px;
+}
+
+.submit-button{
+    width: 20vh;
+    height: 6vh;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 0.5vh;
+    margin-right: auto;
+    margin-left: 5vh;
+    border-style: solid;
+    border-color: #cca24e;
+    background: #f0d46c;
+}
+
+.submit-button:hover{
+    background: #cca24e;
+    transition: 0.2s;
+}
